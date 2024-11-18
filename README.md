@@ -9,7 +9,7 @@ Following tools are needed for windows environment:
 - Download and install everything 1.5a and es cli. Add the es.exe to PATH in environment variables
 - change searchPath in the powershell script and other parameters as required
 - Open a powershell window, cd to project's folder and run ``` $ ./5.ps1 ```
-#To Do
+# To Do
 - Extract embedded images in pdf(using Apache PDFBox) and .docx/pptx(extracting as zip, images in word/media), store combined OCR in metadata
 - parallalize things to make it faster
 - I don't know how to do this yet:
