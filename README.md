@@ -10,7 +10,8 @@ Following tools are needed for windows environment:
 - change searchPath in the powershell script and other parameters as required
 - Open a powershell window, cd to project's folder and run ``` $ ./5.ps1 ```
 # To Do
-- Extract embedded images in pdf(using Apache PDFBox) and .docx/pptx(extracting as zip, images in word/media), store combined OCR in metadata
+- Embedded Images: Extract embedded images in pdf(using Apache PDFBox) and .docx/pptx(extracting as zip, images in word/media), store combined OCR in metadata.
+  other extensions: pages, epub, mobi, mhtml
 - parallalize things to make it faster
 - I don't know how to do this yet:
   - support other image formats: exif tools is only supporting jpeg and png (and is slow), currently taglib is being used for png as it extremely faster than exif but it also doesn't support other extensions in my limited expreimentation.
